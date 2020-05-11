@@ -29,7 +29,7 @@ def retrive_all(data,f_donar,f_amount):
     for i in data:
         print([i])
 if( __name__ == "__main__"):
-    os.chdir("C:\\Users\\Rohit Sagar Shinde\\Desktop")
+    os.chdir("C:\\Users\\HP\\Desktop")
     data=open("Data.txt",'a+')
     print("for acsses of admin enter 1 and for user enter 2 : ")
     f_amount=[]
